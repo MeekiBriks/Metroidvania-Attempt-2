@@ -39,7 +39,6 @@ function Update () {
 	transform.position += yMovement * Time.deltaTime;
 	transform.position += xMovement * xSpeed * Time.deltaTime;
 	transform.position -= yMovement * Time.deltaTime;
-	if (Input.GetKey(jumpKey) && Function.On
 };
 
 function lastUpdate() {
