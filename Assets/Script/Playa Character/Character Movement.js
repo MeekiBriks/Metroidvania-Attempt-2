@@ -20,6 +20,7 @@ var ballForm;
 var aimUp;
 var aimDown;
 var facingRight;
+var onFloor : System.Boolean;
 
 
 function Start () {
@@ -42,4 +43,16 @@ function Update () {
 };
 
 function lastUpdate() {
+}
+
+function OnCollisionEnter (collision : Collision){
+    if(collision == GameObject.Find("Floor").GetComponent.<BoxCollider>()){
+        onFloor = true;
+        xSpeed = 100;
+    }
+}function OnCollisionExit (collision : Collision){
+    if(collision == GameObject.Find("Floor").GetComponent.<BoxCollider>()){
+        onFloor = false;
+        xSpeed = 4;
+    }
 }
