@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: c04889bfb4f716046a5e487e35b0c039
+timeCreated: 1499877940
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Face
+    100002: gunBelly
+    100004: HIPS_DON_T_LIE
+    100006: Left_Cheek
+    100008: Left_Collarbone
+    100010: Left_Head
+    100012: Lower_Chest
+    100014: Lower_Left_sidePlating
+    100016: Lower_Right_sidePlating
+    100018: Nek
+    100020: //RootNode
+    100022: Right_Cheek
+    100024: Right_Collarbone
+    100026: Right_Head
+    100028: Upper_Chest
+    100030: Upper_Left_sidePlating
+    100032: Upper_Right_sidePlating
+    100034: Forehead
+    100036: Left_Shoulder
+    100038: Right_Shoulder
+    100040: Left_Ankle
+    100042: Left_Arm
+    100044: Left_Elbow
+    100046: Left_Foot
+    100048: Left_Forearm
+    100050: Left_Hand
+    100052: Left_Knee
+    100054: Left_Pelvis
+    100056: Left_Wrist
+    100058: Lower_Left_Leg
+    100060: Lower_Right_Leg
+    100062: Middle_Left_sidePlating
+    100064: Middle_Right_sidePlating
+    100066: Right_Ankle
+    100068: Right_Arm
+    100070: Right_Elbow
+    100072: RIght_Foot
+    100074: Right_Forearm
+    100076: Right_Hand
+    100078: Right_Knee
+    100080: Right_Pelvis
+    100082: Right_Wrist
+    100084: Upper_Left_Leg
+    100086: Upper_Right_Leg
+    100088: Armature
+    100090: Belly_Cannon
+    100092: Head
+    100094: Left_Arm_0
+    100096: Left_Collarbone_0
+    100098: Left_Foot_0
+    100100: Left_Forearm_0
+    100102: Left_Hand_0
+    100104: Left_Leg
+    100106: Left_Pelvis_0
+    100108: Left_Thigh
+    100110: Left_Upper_Torso
+    100112: Nek_lives
+    100114: Right_Arm_0
+    100116: Right_Collarbone_0
+    100118: Right_Foot
+    100120: Right_Forearm_0
+    100122: Right_Hand_0
+    100124: Right_Leg
+    100126: Right_Pelvis_0
+    100128: Right_Thigh
+    100130: Right_Upper_Torso
+    100132: Teeny_Ab_Crunch
+    100134: Upper_Chest_0
+    400000: Face
+    400002: gunBelly
+    400004: HIPS_DON_T_LIE
+    400006: Left_Cheek
+    400008: Left_Collarbone
+    400010: Left_Head
+    400012: Lower_Chest
+    400014: Lower_Left_sidePlating
+    400016: Lower_Right_sidePlating
+    400018: Nek
+    400020: //RootNode
+    400022: Right_Cheek
+    400024: Right_Collarbone
+    400026: Right_Head
+    400028: Upper_Chest
+    400030: Upper_Left_sidePlating
+    400032: Upper_Right_sidePlating
+    400034: Forehead
+    400036: Left_Shoulder
+    400038: Right_Shoulder
+    400040: Left_Ankle
+    400042: Left_Arm
+    400044: Left_Elbow
+    400046: Left_Foot
+    400048: Left_Forearm
+    400050: Left_Hand
+    400052: Left_Knee
+    400054: Left_Pelvis
+    400056: Left_Wrist
+    400058: Lower_Left_Leg
+    400060: Lower_Right_Leg
+    400062: Middle_Left_sidePlating
+    400064: Middle_Right_sidePlating
+    400066: Right_Ankle
+    400068: Right_Arm
+    400070: Right_Elbow
+    400072: RIght_Foot
+    400074: Right_Forearm
+    400076: Right_Hand
+    400078: Right_Knee
+    400080: Right_Pelvis
+    400082: Right_Wrist
+    400084: Upper_Left_Leg
+    400086: Upper_Right_Leg
+    400088: Armature
+    400090: Belly_Cannon
+    400092: Head
+    400094: Left_Arm_0
+    400096: Left_Collarbone_0
+    400098: Left_Foot_0
+    400100: Left_Forearm_0
+    400102: Left_Hand_0
+    400104: Left_Leg
+    400106: Left_Pelvis_0
+    400108: Left_Thigh
+    400110: Left_Upper_Torso
+    400112: Nek_lives
+    400114: Right_Arm_0
+    400116: Right_Collarbone_0
+    400118: Right_Foot
+    400120: Right_Forearm_0
+    400122: Right_Hand_0
+    400124: Right_Leg
+    400126: Right_Pelvis_0
+    400128: Right_Thigh
+    400130: Right_Upper_Torso
+    400132: Teeny_Ab_Crunch
+    400134: Upper_Chest_0
+    2300000: Face
+    2300002: gunBelly
+    2300004: HIPS_DON_T_LIE
+    2300006: Left_Cheek
+    2300008: Left_Collarbone
+    2300010: Left_Head
+    2300012: Lower_Chest
+    2300014: Lower_Left_sidePlating
+    2300016: Lower_Right_sidePlating
+    2300018: Nek
+    2300020: Right_Cheek
+    2300022: Right_Collarbone
+    2300024: Right_Head
+    2300026: Upper_Chest
+    2300028: Upper_Left_sidePlating
+    2300030: Upper_Right_sidePlating
+    2300032: Forehead
+    2300034: Left_Shoulder
+    2300036: Right_Shoulder
+    2300038: Left_Ankle
+    2300040: Left_Arm
+    2300042: Left_Elbow
+    2300044: Left_Foot
+    2300046: Left_Forearm
+    2300048: Left_Hand
+    2300050: Left_Knee
+    2300052: Left_Pelvis
+    2300054: Left_Wrist
+    2300056: Lower_Left_Leg
+    2300058: Lower_Right_Leg
+    2300060: Middle_Left_sidePlating
+    2300062: Middle_Right_sidePlating
+    2300064: //RootNode
+    2300066: Right_Ankle
+    2300068: Right_Arm
+    2300070: Right_Elbow
+    2300072: RIght_Foot
+    2300074: Right_Forearm
+    2300076: Right_Hand
+    2300078: Right_Knee
+    2300080: Right_Pelvis
+    2300082: Right_Wrist
+    2300084: Upper_Left_Leg
+    2300086: Upper_Right_Leg
+    3300000: Face
+    3300002: gunBelly
+    3300004: HIPS_DON_T_LIE
+    3300006: Left_Cheek
+    3300008: Left_Collarbone
+    3300010: Left_Head
+    3300012: Lower_Chest
+    3300014: Lower_Left_sidePlating
+    3300016: Lower_Right_sidePlating
+    3300018: Nek
+    3300020: Right_Cheek
+    3300022: Right_Collarbone
+    3300024: Right_Head
+    3300026: Upper_Chest
+    3300028: Upper_Left_sidePlating
+    3300030: Upper_Right_sidePlating
+    3300032: Forehead
+    3300034: Left_Shoulder
+    3300036: Right_Shoulder
+    3300038: Left_Ankle
+    3300040: Left_Arm
+    3300042: Left_Elbow
+    3300044: Left_Foot
+    3300046: Left_Forearm
+    3300048: Left_Hand
+    3300050: Left_Knee
+    3300052: Left_Pelvis
+    3300054: Left_Wrist
+    3300056: Lower_Left_Leg
+    3300058: Lower_Right_Leg
+    3300060: Middle_Left_sidePlating
+    3300062: Middle_Right_sidePlating
+    3300064: //RootNode
+    3300066: Right_Ankle
+    3300068: Right_Arm
+    3300070: Right_Elbow
+    3300072: RIght_Foot
+    3300074: Right_Forearm
+    3300076: Right_Hand
+    3300078: Right_Knee
+    3300080: Right_Pelvis
+    3300082: Right_Wrist
+    3300084: Upper_Left_Leg
+    3300086: Upper_Right_Leg
+    4300000: HIPS_DON_T_LIE
+    4300002: gunBelly
+    4300004: Lower_Left_sidePlating
+    4300006: Lower_Right_sidePlating
+    4300008: Upper_Left_sidePlating
+    4300010: Upper_Right_sidePlating
+    4300012: Lower_Chest
+    4300014: Upper_Chest
+    4300016: Left_Collarbone
+    4300018: Right_Collarbone
+    4300020: Nek
+    4300022: Face
+    4300024: Right_Cheek
+    4300026: Left_Cheek
+    4300028: Left_Head
+    4300030: Right_Head
+    4300032: Left_Shoulder
+    4300034: Forehead
+    4300036: Right_Shoulder
+    4300038: RIght_Foot
+    4300040: Upper_Right_Leg
+    4300042: Left_Hand
+    4300044: Left_Arm
+    4300046: Middle_Left_sidePlating
+    4300048: Middle_Right_sidePlating
+    4300050: Right_Forearm
+    4300052: Left_Elbow
+    4300054: Right_Elbow
+    4300056: Left_Forearm
+    4300058: Right_Arm
+    4300060: Left_Wrist
+    4300062: Right_Wrist
+    4300064: Right_Hand
+    4300066: Left_Pelvis
+    4300068: Right_Pelvis
+    4300070: Upper_Left_Leg
+    4300072: Left_Knee
+    4300074: Right_Knee
+    4300076: Lower_Left_Leg
+    4300078: Lower_Right_Leg
+    4300080: Left_Ankle
+    4300082: Right_Ankle
+    4300084: Left_Foot
+    7400000: Default Take
+    7400002: ArmatureAction
+    7400004: PoseLib
+    7400006: PoseLib (1)
+    9500000: //RootNode
+    13700000: Face
+    13700002: Forehead
+    13700004: gunBelly
+    13700006: HIPS_DON_T_LIE
+    13700008: Left_Ankle
+    13700010: Left_Arm
+    13700012: Left_Cheek
+    13700014: Left_Collarbone
+    13700016: Left_Elbow
+    13700018: Left_Foot
+    13700020: Left_Forearm
+    13700022: Left_Hand
+    13700024: Left_Head
+    13700026: Left_Knee
+    13700028: Left_Pelvis
+    13700030: Left_Shoulder
+    13700032: Left_Wrist
+    13700034: Lower_Chest
+    13700036: Lower_Left_Leg
+    13700038: Lower_Left_sidePlating
+    13700040: Lower_Right_Leg
+    13700042: Lower_Right_sidePlating
+    13700044: Middle_Left_sidePlating
+    13700046: Middle_Right_sidePlating
+    13700048: Right_Ankle
+    13700050: Right_Arm
+    13700052: Right_Cheek
+    13700054: Right_Collarbone
+    13700056: Right_Elbow
+    13700058: RIght_Foot
+    13700060: Right_Forearm
+    13700062: Right_Hand
+    13700064: Right_Head
+    13700066: Right_Knee
+    13700068: Right_Pelvis
+    13700070: Right_Shoulder
+    13700072: Right_Wrist
+    13700074: Upper_Chest
+    13700076: Upper_Left_Leg
+    13700078: Upper_Left_sidePlating
+    13700080: Upper_Right_Leg
+    13700082: Upper_Right_sidePlating
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Default Take' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Belly_Cannon' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'Upper_Chest_0' has scale
+      animation that will be discarded.\n\t'Left_Pelvis_0' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\nClip 'ArmatureAction'
+      has import animation warnings that might lower retargeting quality:\nNote: Activate
+      translation DOF on avatar to improve retargeting quality.\n\t'Belly_Cannon'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'Upper_Chest_0'
+      has scale animation that will be discarded.\n\t'Left_Pelvis_0' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PoseLib (1)
+      takeName: PoseLib
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly_Cannon
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Collarbone_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0/Left_Arm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0/Left_Arm_0/Left_Hand_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Nek_lives
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Nek_lives/Head
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Collarbone_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0/Right_Arm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0/Right_Arm_0/Right_Hand_0
+        weight: 1
+      - path: Armature/Left_Pelvis_0
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh/Left_Leg
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh/Left_Leg/Left_Foot_0
+        weight: 1
+      - path: Armature/Right_Pelvis_0
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh/Right_Leg
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh/Right_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Teeny_Ab_Crunch
+        weight: 1
+      - path: Face
+        weight: 1
+      - path: Forehead
+        weight: 1
+      - path: gunBelly
+        weight: 1
+      - path: HIPS_DON_T_LIE
+        weight: 1
+      - path: Left_Ankle
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Cheek
+        weight: 1
+      - path: Left_Collarbone
+        weight: 1
+      - path: Left_Elbow
+        weight: 1
+      - path: Left_Foot
+        weight: 1
+      - path: Left_Forearm
+        weight: 1
+      - path: Left_Hand
+        weight: 1
+      - path: Left_Head
+        weight: 1
+      - path: Left_Knee
+        weight: 1
+      - path: Left_Pelvis
+        weight: 1
+      - path: Left_Shoulder
+        weight: 1
+      - path: Left_Wrist
+        weight: 1
+      - path: Lower_Chest
+        weight: 1
+      - path: Lower_Left_Leg
+        weight: 1
+      - path: Lower_Left_sidePlating
+        weight: 1
+      - path: Lower_Right_Leg
+        weight: 1
+      - path: Lower_Right_sidePlating
+        weight: 1
+      - path: Middle_Left_sidePlating
+        weight: 1
+      - path: Middle_Right_sidePlating
+        weight: 1
+      - path: Right_Ankle
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Cheek
+        weight: 1
+      - path: Right_Collarbone
+        weight: 1
+      - path: Right_Elbow
+        weight: 1
+      - path: RIght_Foot
+        weight: 1
+      - path: Right_Forearm
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      - path: Right_Head
+        weight: 1
+      - path: Right_Knee
+        weight: 1
+      - path: Right_Pelvis
+        weight: 1
+      - path: Right_Shoulder
+        weight: 1
+      - path: Right_Wrist
+        weight: 1
+      - path: Upper_Chest
+        weight: 1
+      - path: Upper_Left_Leg
+        weight: 1
+      - path: Upper_Left_sidePlating
+        weight: 1
+      - path: Upper_Right_Leg
+        weight: 1
+      - path: Upper_Right_sidePlating
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ArmatureAction
+      takeName: ArmatureAction
+      firstFrame: 0
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly_Cannon
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Collarbone_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0/Left_Arm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0/Left_Arm_0/Left_Hand_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Nek_lives
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Nek_lives/Head
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Collarbone_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0/Right_Arm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0/Right_Arm_0/Right_Hand_0
+        weight: 1
+      - path: Armature/Left_Pelvis_0
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh/Left_Leg
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh/Left_Leg/Left_Foot_0
+        weight: 1
+      - path: Armature/Right_Pelvis_0
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh/Right_Leg
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh/Right_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Teeny_Ab_Crunch
+        weight: 1
+      - path: Face
+        weight: 1
+      - path: Forehead
+        weight: 1
+      - path: gunBelly
+        weight: 1
+      - path: HIPS_DON_T_LIE
+        weight: 1
+      - path: Left_Ankle
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Cheek
+        weight: 1
+      - path: Left_Collarbone
+        weight: 1
+      - path: Left_Elbow
+        weight: 1
+      - path: Left_Foot
+        weight: 1
+      - path: Left_Forearm
+        weight: 1
+      - path: Left_Hand
+        weight: 1
+      - path: Left_Head
+        weight: 1
+      - path: Left_Knee
+        weight: 1
+      - path: Left_Pelvis
+        weight: 1
+      - path: Left_Shoulder
+        weight: 1
+      - path: Left_Wrist
+        weight: 1
+      - path: Lower_Chest
+        weight: 1
+      - path: Lower_Left_Leg
+        weight: 1
+      - path: Lower_Left_sidePlating
+        weight: 1
+      - path: Lower_Right_Leg
+        weight: 1
+      - path: Lower_Right_sidePlating
+        weight: 1
+      - path: Middle_Left_sidePlating
+        weight: 1
+      - path: Middle_Right_sidePlating
+        weight: 1
+      - path: Right_Ankle
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Cheek
+        weight: 1
+      - path: Right_Collarbone
+        weight: 1
+      - path: Right_Elbow
+        weight: 1
+      - path: RIght_Foot
+        weight: 1
+      - path: Right_Forearm
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      - path: Right_Head
+        weight: 1
+      - path: Right_Knee
+        weight: 1
+      - path: Right_Pelvis
+        weight: 1
+      - path: Right_Shoulder
+        weight: 1
+      - path: Right_Wrist
+        weight: 1
+      - path: Upper_Chest
+        weight: 1
+      - path: Upper_Left_Leg
+        weight: 1
+      - path: Upper_Left_sidePlating
+        weight: 1
+      - path: Upper_Right_Leg
+        weight: 1
+      - path: Upper_Right_sidePlating
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PoseLib
+      takeName: PoseLib
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Belly_Cannon
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Collarbone_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0/Left_Arm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Left_Upper_Torso/Left_Forearm_0/Left_Arm_0/Left_Hand_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Nek_lives
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Nek_lives/Head
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Collarbone_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0/Right_Arm_0
+        weight: 1
+      - path: Armature/Belly_Cannon/Upper_Chest_0/Right_Upper_Torso/Right_Forearm_0/Right_Arm_0/Right_Hand_0
+        weight: 1
+      - path: Armature/Left_Pelvis_0
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh/Left_Leg
+        weight: 1
+      - path: Armature/Left_Pelvis_0/Left_Thigh/Left_Leg/Left_Foot_0
+        weight: 1
+      - path: Armature/Right_Pelvis_0
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh/Right_Leg
+        weight: 1
+      - path: Armature/Right_Pelvis_0/Right_Thigh/Right_Leg/Right_Foot
+        weight: 1
+      - path: Armature/Teeny_Ab_Crunch
+        weight: 1
+      - path: Face
+        weight: 1
+      - path: Forehead
+        weight: 1
+      - path: gunBelly
+        weight: 1
+      - path: HIPS_DON_T_LIE
+        weight: 1
+      - path: Left_Ankle
+        weight: 1
+      - path: Left_Arm
+        weight: 1
+      - path: Left_Cheek
+        weight: 1
+      - path: Left_Collarbone
+        weight: 1
+      - path: Left_Elbow
+        weight: 1
+      - path: Left_Foot
+        weight: 1
+      - path: Left_Forearm
+        weight: 1
+      - path: Left_Hand
+        weight: 1
+      - path: Left_Head
+        weight: 1
+      - path: Left_Knee
+        weight: 1
+      - path: Left_Pelvis
+        weight: 1
+      - path: Left_Shoulder
+        weight: 1
+      - path: Left_Wrist
+        weight: 1
+      - path: Lower_Chest
+        weight: 1
+      - path: Lower_Left_Leg
+        weight: 1
+      - path: Lower_Left_sidePlating
+        weight: 1
+      - path: Lower_Right_Leg
+        weight: 1
+      - path: Lower_Right_sidePlating
+        weight: 1
+      - path: Middle_Left_sidePlating
+        weight: 1
+      - path: Middle_Right_sidePlating
+        weight: 1
+      - path: Right_Ankle
+        weight: 1
+      - path: Right_Arm
+        weight: 1
+      - path: Right_Cheek
+        weight: 1
+      - path: Right_Collarbone
+        weight: 1
+      - path: Right_Elbow
+        weight: 1
+      - path: RIght_Foot
+        weight: 1
+      - path: Right_Forearm
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      - path: Right_Head
+        weight: 1
+      - path: Right_Knee
+        weight: 1
+      - path: Right_Pelvis
+        weight: 1
+      - path: Right_Shoulder
+        weight: 1
+      - path: Right_Wrist
+        weight: 1
+      - path: Upper_Chest
+        weight: 1
+      - path: Upper_Left_Leg
+        weight: 1
+      - path: Upper_Left_sidePlating
+        weight: 1
+      - path: Upper_Right_Leg
+        weight: 1
+      - path: Upper_Right_sidePlating
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Armature
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Leg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Leg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Foot_0
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Chest_0
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Upper_Torso
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Forearm_0
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Forearm_0
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Arm_0
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Arm_0
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Hand_0
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Nek_lives
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Left_Upper_Torso
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Right_Hand_0
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: playerModel v2(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: playerModel v2(Clone)
+      position: {x: -0, y: 9.5, z: -0.0000004152582}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Belly_Cannon
+      parentName: Armature
+      position: {x: -0, y: 0.2, z: 0.215}
+      rotation: {x: 0.57922804, y: 0.40557975, z: -0.579228, w: 0.4055798}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Upper_Chest_0
+      parentName: Belly_Cannon
+      position: {x: -3.0102236, y: 0.00000022859646, z: 0}
+      rotation: {x: 0.13052619, y: -0.000000009854454, z: -1.3531244e-15, w: 0.9914449}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Upper_Torso
+      parentName: Upper_Chest_0
+      position: {x: -0.99999976, y: 0.00000006567578, z: 0}
+      rotation: {x: 0.43876073, y: -0.56063014, z: -0.47882327, w: 0.51372284}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Left_Collarbone_0
+      parentName: Left_Upper_Torso
+      position: {x: -2, y: 0.00000028501867, z: -0.00000017881393}
+      rotation: {x: -0.46379316, y: 0.08177905, z: 0.86875904, w: -0.15318589}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999998}
+    - name: Left_Forearm_0
+      parentName: Left_Upper_Torso
+      position: {x: -2, y: 0.00000028501867, z: -0.00000017881393}
+      rotation: {x: -0.000000066272996, y: -0.54463905, z: 0.000000004612706, w: 0.83867055}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Left_Arm_0
+      parentName: Left_Forearm_0
+      position: {x: -3.0000005, y: 0.0000002432025, z: 0.0000005066395}
+      rotation: {x: -0.00000001521387, y: -0.20791169, z: -0.000000006882904, w: 0.9781476}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Left_Hand_0
+      parentName: Left_Arm_0
+      position: {x: -3.0000005, y: 0.00000025139965, z: 0.000000059604645}
+      rotation: {x: 0.00000000327727, y: 0.0000000018626451, z: -0.0000000035835335,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Nek_lives
+      parentName: Upper_Chest_0
+      position: {x: -0.99999976, y: 0.00000006567578, z: 0}
+      rotation: {x: -0.000000014901159, y: 0.0000000018626451, z: 9.178735e-16, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Head
+      parentName: Nek_lives
+      position: {x: -0.4997759, y: 0.000000028027271, z: -0.00000000208832}
+      rotation: {x: 0.056692775, y: -0.000000006139833, z: 1.0560189e-10, w: 0.9983917}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Upper_Torso
+      parentName: Upper_Chest_0
+      position: {x: -0.99999976, y: 0.00000006567578, z: 0}
+      rotation: {x: -0.5137229, y: -0.4788233, z: 0.5606301, w: 0.43876073}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Right_Collarbone_0
+      parentName: Right_Upper_Torso
+      position: {x: -2, y: 0.00000023595298, z: -0.00000020861626}
+      rotation: {x: -0.4646859, y: -0.07604718, z: 0.8682584, w: 0.1562406}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Right_Forearm_0
+      parentName: Right_Upper_Torso
+      position: {x: -2, y: 0.00000023595298, z: -0.00000020861626}
+      rotation: {x: -0.000000033709345, y: -0.54463905, z: -0.00000003142285, w: 0.83867055}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Right_Arm_0
+      parentName: Right_Forearm_0
+      position: {x: -3.0000002, y: 0.00000029695366, z: 0.0000004172325}
+      rotation: {x: -0.0000000117839445, y: -0.20791169, z: -0.0000000023598274, w: 0.9781476}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Right_Hand_0
+      parentName: Right_Arm_0
+      position: {x: -3.0000005, y: 0.00000022159733, z: -0.00000008940697}
+      rotation: {x: 0.0000000032777705, y: -0.0000000018626451, z: 0.000000002004402,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Left_Pelvis_0
+      parentName: Armature
+      position: {x: -0, y: 0.2, z: 0}
+      rotation: {x: 0.2721859, y: -0.10535769, z: 0.9254235, w: 0.24167317}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Left_Thigh
+      parentName: Left_Pelvis_0
+      position: {x: -1.4577379, y: 0.00000015646219, z: -0.000000074505806}
+      rotation: {x: 0.66188395, y: -0.4012043, z: 0.28598478, w: 0.5649402}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000002}
+    - name: Left_Leg
+      parentName: Left_Thigh
+      position: {x: -3.999999, y: 0.00000013411045, z: 0}
+      rotation: {x: 0.000000053507485, y: 0.06888588, z: -0.000000007662233, w: 0.9976246}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Left_Foot_0
+      parentName: Left_Leg
+      position: {x: -4.499998, y: 0.0000004172325, z: -0.000000029802322}
+      rotation: {x: 0.00000002683569, y: 0.7071067, z: -0.000000026835686, w: 0.7071068}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: Right_Pelvis_0
+      parentName: Armature
+      position: {x: -0, y: 0.2, z: 0}
+      rotation: {x: 0.13014019, y: -0.26448852, z: 0.0360468, w: 0.95488745}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Right_Thigh
+      parentName: Right_Pelvis_0
+      position: {x: -1.4577378, y: 0.00000010430813, z: -0.000000052154064}
+      rotation: {x: -0.6040649, y: -0.38591602, z: -0.30630198, w: 0.62638134}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Right_Leg
+      parentName: Right_Thigh
+      position: {x: -3.9999998, y: 0.00000031292439, z: -0.00000011920929}
+      rotation: {x: -0.000000073753895, y: -0.08280823, z: 0.00000003744409, w: 0.9965655}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: Right_Foot
+      parentName: Right_Leg
+      position: {x: -4.5, y: 0.0000004917383, z: 0.000000044703484}
+      rotation: {x: 0.000000009428478, y: 0.69966334, z: 0.000000041848292, w: 0.71447265}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Teeny_Ab_Crunch
+      parentName: Armature
+      position: {x: -0, y: 0.2, z: 0.215}
+      rotation: {x: -0.50000006, y: -0.49999997, z: -0.49999997, w: 0.50000006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Face
+      parentName: playerModel v2(Clone)
+      position: {x: -0.00000004812084, y: 0.18999983, z: 5.582981}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.8, y: 0.75, z: 1.26}
+    - name: Forehead
+      parentName: playerModel v2(Clone)
+      position: {x: -0.00000004812084, y: 0.18999983, z: 6.348984}
+      rotation: {x: 0.000000053386678, y: 0.7071068, z: 0.7071067, w: 0.000000053386668}
+      scale: {x: 1, y: 1, z: 0.4}
+    - name: gunBelly
+      parentName: playerModel v2(Clone)
+      position: {x: -0.000000030636283, y: 0.38999984, z: 1.7517042}
+      rotation: {x: 0.000000053386678, y: 0.7071068, z: 0.7071067, w: 0.000000053386668}
+      scale: {x: 1.5, y: 1.5, z: 1.2}
+    - name: HIPS_DON_T_LIE
+      parentName: playerModel v2(Clone)
+      position: {x: -0.00000004812084, y: 0.19, z: -0.100000374}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 1.5, y: 1.2, z: 0.5}
+    - name: Left_Ankle
+      parentName: playerModel v2(Clone)
+      position: {x: 1.25, y: 0.18999973, z: -8.748296}
+      rotation: {x: 0, y: 0, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.5, y: 0.5, z: 0.25}
+    - name: Left_Arm
+      parentName: playerModel v2(Clone)
+      position: {x: 6.5, y: 0.18999927, z: 4.151705}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.75, y: 0.25, z: 0.25}
+    - name: Left_Cheek
+      parentName: playerModel v2(Clone)
+      position: {x: 0.38999993, y: 0.1899998, z: 5.398981}
+      rotation: {x: 0, y: -0.21643965, z: -0, w: 0.976296}
+      scale: {x: 0.39999995, y: 0.5, z: 0.7999999}
+    - name: Left_Collarbone
+      parentName: playerModel v2(Clone)
+      position: {x: 1.31, y: 0.18999971, z: 5.251704}
+      rotation: {x: -0.38268343, y: 0.000000028892659, z: 0.92387956, w: 0.00000006975305}
+      scale: {x: 0.4, y: 0.5, z: 0.8}
+    - name: Left_Elbow
+      parentName: playerModel v2(Clone)
+      position: {x: 5, y: 0.1899994, z: 4.151705}
+      rotation: {x: 0.7071068, y: -0.00000005338667, z: 0.70710677, w: 0.000000053386675}
+      scale: {x: 0.4, y: 0.4, z: 0.25}
+    - name: Left_Foot
+      parentName: playerModel v2(Clone)
+      position: {x: 1.25, y: 0.75, z: -9.248296}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.75, y: 1.5, z: 0.25}
+    - name: Left_Forearm
+      parentName: playerModel v2(Clone)
+      position: {x: 3.5, y: 0.18999952, z: 4.151705}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.75, y: 0.3, z: 0.3}
+    - name: Left_Hand
+      parentName: playerModel v2(Clone)
+      position: {x: 8.5, y: 0.18999909, z: 4.201704}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+    - name: Left_Head
+      parentName: playerModel v2(Clone)
+      position: {x: 0.33899993, y: 0.1899998, z: 6.0529804}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.8, y: 0.75, z: 0.75}
+    - name: Left_Knee
+      parentName: playerModel v2(Clone)
+      position: {x: 1.25, y: 0.18999973, z: -4.748296}
+      rotation: {x: 0, y: 0, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.75, y: 0.75, z: 0.25}
+    - name: Left_Pelvis
+      parentName: playerModel v2(Clone)
+      position: {x: 1.25, y: 0.18999973, z: -0.7482958}
+      rotation: {x: 0, y: 0, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.84999996, y: 0.84999996, z: 0.25}
+    - name: Left_Shoulder
+      parentName: playerModel v2(Clone)
+      position: {x: 2, y: 0.18999965, z: 4.151705}
+      rotation: {x: 0.7071068, y: -0.00000005338667, z: 0.70710677, w: 0.000000053386675}
+      scale: {x: 0.5, y: 0.5, z: 0.25}
+    - name: Left_Wrist
+      parentName: playerModel v2(Clone)
+      position: {x: 8, y: 0.18999913, z: 4.151705}
+      rotation: {x: 0.7071068, y: -0.00000005338667, z: 0.70710677, w: 0.000000053386675}
+      scale: {x: 0.4, y: 0.4, z: 0.25}
+    - name: Lower_Chest
+      parentName: playerModel v2(Clone)
+      position: {x: -0.00000004812084, y: 0.18999983, z: 3.2517042}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 1, y: 0.75, z: 0.4}
+    - name: Lower_Left_Leg
+      parentName: playerModel v2(Clone)
+      position: {x: 1.25, y: 0.18999973, z: -6.7176204}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.4, y: 0.4, z: 1.25}
+    - name: Lower_Left_sidePlating
+      parentName: playerModel v2(Clone)
+      position: {x: 1.31, y: 0.18999971, z: 0.64170456}
+      rotation: {x: -0.38268343, y: 0.000000028892655, z: 0.92387956, w: 0.00000006975305}
+      scale: {x: 0.59999996, y: 0.5, z: 0.99999994}
+    - name: Lower_Right_Leg
+      parentName: playerModel v2(Clone)
+      position: {x: -1.25, y: 0.18999994, z: -6.7176204}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.4, y: 0.4, z: 1.25}
+    - name: Lower_Right_sidePlating
+      parentName: playerModel v2(Clone)
+      position: {x: -1.31, y: 0.18999995, z: 0.64170456}
+      rotation: {x: 0.38268343, y: -0.000000028892659, z: 0.92387956, w: 0.00000006975305}
+      scale: {x: 0.59999996, y: 0.5, z: 0.99999994}
+    - name: Middle_Left_sidePlating
+      parentName: playerModel v2(Clone)
+      position: {x: 1.5, y: 0.19, z: 1.7517042}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.75, y: 0.5, z: 1.5}
+    - name: Middle_Right_sidePlating
+      parentName: playerModel v2(Clone)
+      position: {x: -1.5, y: 0.18999997, z: 1.7517042}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.75, y: 0.5, z: 1.5}
+    - name: Right_Ankle
+      parentName: playerModel v2(Clone)
+      position: {x: -1.25, y: 0.18999994, z: -8.748296}
+      rotation: {x: 0, y: 0, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.5, y: 0.5, z: 0.25}
+    - name: Right_Arm
+      parentName: playerModel v2(Clone)
+      position: {x: -6.5, y: 0.1900004, z: 4.151705}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.75, y: 0.25, z: 0.25}
+    - name: Right_Cheek
+      parentName: playerModel v2(Clone)
+      position: {x: -0.39000005, y: 0.18999986, z: 5.398981}
+      rotation: {x: 0, y: 0.21643965, z: -0, w: 0.976296}
+      scale: {x: 0.39999995, y: 0.5, z: 0.7999999}
+    - name: Right_Collarbone
+      parentName: playerModel v2(Clone)
+      position: {x: -1.31, y: 0.18999995, z: 5.251704}
+      rotation: {x: 0.38268343, y: -0.000000028892655, z: 0.92387956, w: 0.00000006975305}
+      scale: {x: 0.4, y: 0.5, z: 0.8}
+    - name: Right_Elbow
+      parentName: playerModel v2(Clone)
+      position: {x: -5, y: 0.19000027, z: 4.151705}
+      rotation: {x: 0.7071068, y: -0.00000005338667, z: 0.70710677, w: 0.000000053386675}
+      scale: {x: 0.4, y: 0.4, z: 0.25}
+    - name: RIght_Foot
+      parentName: playerModel v2(Clone)
+      position: {x: -1.25, y: 5.89, z: -13.6}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.75, y: 1.5, z: 0.25}
+    - name: Right_Forearm
+      parentName: playerModel v2(Clone)
+      position: {x: -3.5, y: 0.19000015, z: 4.151705}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.75, y: 0.3, z: 0.3}
+    - name: Right_Hand
+      parentName: playerModel v2(Clone)
+      position: {x: -8.5, y: 0.19000058, z: 4.201704}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+    - name: Right_Head
+      parentName: playerModel v2(Clone)
+      position: {x: -0.33900005, y: 0.18999986, z: 6.0529804}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.8, y: 0.75, z: 0.75}
+    - name: Right_Knee
+      parentName: playerModel v2(Clone)
+      position: {x: -1.25, y: 0.18999994, z: -4.748296}
+      rotation: {x: 0, y: 0, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.75, y: 0.75, z: 0.25}
+    - name: Right_Pelvis
+      parentName: playerModel v2(Clone)
+      position: {x: -1.25, y: 0.18999994, z: -0.7482958}
+      rotation: {x: 0, y: 0, z: 0.7071067, w: 0.7071068}
+      scale: {x: 0.84999996, y: 0.84999996, z: 0.25}
+    - name: Right_Shoulder
+      parentName: playerModel v2(Clone)
+      position: {x: -2, y: 0.19000001, z: 4.151705}
+      rotation: {x: 0.7071068, y: -0.00000005338667, z: 0.70710677, w: 0.000000053386675}
+      scale: {x: 0.5, y: 0.5, z: 0.25}
+    - name: Right_Wrist
+      parentName: playerModel v2(Clone)
+      position: {x: -8, y: 0.19000053, z: 4.151705}
+      rotation: {x: 0.7071068, y: -0.00000005338667, z: 0.70710677, w: 0.000000053386675}
+      scale: {x: 0.4, y: 0.4, z: 0.25}
+    - name: Upper_Chest
+      parentName: playerModel v2(Clone)
+      position: {x: -0.00000004812084, y: 0.18999983, z: 4.1517}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 2.5, y: 1.2, z: 0.8}
+    - name: Upper_Left_Leg
+      parentName: playerModel v2(Clone)
+      position: {x: 1.25, y: 0.18999973, z: -2.7482958}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.5, y: 0.5, z: 1.25}
+    - name: Upper_Left_sidePlating
+      parentName: playerModel v2(Clone)
+      position: {x: 1.31, y: 0.18999971, z: 3.0017042}
+      rotation: {x: 0, y: 0.38268346, z: -0, w: 0.9238795}
+      scale: {x: 0.59999996, y: 0.5, z: 0.99999994}
+    - name: Upper_Right_Leg
+      parentName: playerModel v2(Clone)
+      position: {x: -1.25, y: 0.18999994, z: -2.7482958}
+      rotation: {x: 0, y: 0, z: 1, w: 0.000000075500154}
+      scale: {x: 0.5, y: 0.5, z: 1.25}
+    - name: Upper_Right_sidePlating
+      parentName: playerModel v2(Clone)
+      position: {x: -1.31, y: 0.18999995, z: 3.0017042}
+      rotation: {x: 0, y: -0.38268346, z: -0, w: 0.9238795}
+      scale: {x: 0.59999996, y: 0.5, z: 0.99999994}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
