@@ -57,9 +57,9 @@ function LateUpdate() {
 
 function DirectionVector() {
 	oldPosition = transform.position;
-	yield WaitForSeconds(1);
+	yield WaitForSeconds(0.1);
 	newPosition = transform.position;
-	currentVelocity = newPosition - oldPosition;
+	currentVelocity = (newPosition - oldPosition)*10;
 }
 
 function jump(){

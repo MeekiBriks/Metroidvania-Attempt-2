@@ -49,6 +49,7 @@ function Update() {
 	} else {
 		transform.rotation = Quaternion.Euler(0,-30,0);
 	}
+	transform.rotation = Quaternion.Euler(0,Input.GetAxis("Horizontal")*-30,0);
 }
 
 function FixedUpdate() {
@@ -58,29 +59,54 @@ function LateUpdate() {
 }
 
 function DetermineKeyPress() {
-    var lastKeyPressed : System.String;
 	if (Vector3(Input.GetAxis("Horizontal"),0,0) == Vector3.right) {
-		lastKeyPressed = rightKey;
+	    facingRight=true;
 	}
-	if (Vector3(Input.GetAxis("Horizontal"),0,0) == Vector3.left) {
-		lastKeyPressed = leftKey;
+	else if (Vector3(Input.GetAxis("Horizontal"),0,0) == Vector3.left) {
+	    facingRight=false;
 	}
-	if (Input.GetKeyDown(jumpKey) === true) {
-		lastKeyPressed = jumpKey;
+	else if (Input.GetKeyDown(jumpKey) === true) {
+	    jumping=true;
+	    idleing = false;
 	}
-	if (Input.GetKeyDown(ballKey) === true) {
-		lastKeyPressed = ballKey;
+	else if (Input.GetKeyDown(ballKey) === true) {
+	    if (ballForm === false) {
+	        ballForm = true;
+	        idleing = false; //replace with transition function
+	    }
+	    if (ballForm === true) {
+	        ballForm = false;
+	        idleing = true; //replace with transition function
+	    }
 	}
-	if (Vector3(0,Input.GetAxis("Vertical"),0) == Vector3.up) {
-		lastKeyPressed = upKey;
+	else if (Vector3(0,Input.GetAxis("Vertical"),0) == Vector3.up) {
+	    if (inFight === true) {
+	        aimUp=true;
+	        idleing = false;
+	    } else {
+	        lookUp=true;
+	        idleing = false;
+	    }
 	}
-	if (Vector3(0,Input.GetAxis("Vertical"),0) == Vector3.down) {
-		lastKeyPressed = downKey;
+	else if (Vector3(0,Input.GetAxis("Vertical"),0) == Vector3.down) {
+	    if (inFight === true) {
+	        aimDown=true;
+	        idleing = false;
+	    } else {
+	        lookDown=true;
+	        idleing = false;
+	    }
 	}
-	if (Input.GetKeyDown(interactKey) === true) {
-		lastKeyPressed = interactKey;
+	else if (Input.GetKeyDown(interactKey) === true) {
+	    facingRight=true;
+	    idleing = false;
+	}else{
+	    idleing = true;
+	    aimUp=false;
+	    lookUp=false;
+	    aimDown=false;
+	    lookDown=false;
 	}
-AnimationVariableChanger(lastKeyPressed);
 }
 
 function OnFloor() {
@@ -109,59 +135,6 @@ function RunningAnimationControl() {
 		running = false;
 		dashing = false;
 		}
-	}
-}
-
-function AnimationVariableChanger(key : System.String) {
-	switch (key) {
-		case rightKey:
-			facingRight=true;
-			break;
-		case leftKey:
-			facingRight=false;
-			break;
-		case jumpKey:
-			jumping=true;
-			idleing = false;
-			break;
-		case ballKey:
-			if (ballForm === false) {
-				ballForm = true;
-				idleing = false; //replace with transition function
-			}
-			if (ballForm === true) {
-				ballForm = false;
-				idleing = true; //replace with transition function
-			}
-			break;
-		case upKey:
-			if (inFight === true) {
-				aimUp=true;
-				idleing = false;
-			} else {
-				lookUp=true;
-				idleing = false;
-			}
-			break;
-		case downKey:
-			if (inFight === true) {
-				aimDown=true;
-				idleing = false;
-			} else {
-				lookDown=true;
-				idleing = false;
-			}
-			break;
-		case interactKey:
-			facingRight=true;
-			idleing = false;
-			break;
-		default:
-			idleing = true;
-			aimUp=false;
-			lookUp=false;
-			aimDown=false;
-			lookDown=false;
 	}
 }
 
