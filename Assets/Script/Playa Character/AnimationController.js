@@ -13,6 +13,7 @@ var schuutKey = "z";
 // Animation Control Variables
 var idleing : System.Boolean;
 var running : System.Boolean;
+var dashing : System.Boolean;
 var ballForm : System.Boolean;
 var idleBallForm : System.Boolean;
 var lookUp : System.Boolean;
@@ -42,6 +43,7 @@ function Start() {
 function Update() {
 	DetermineKeyPress();
 	CheckForFall();
+	RunningAnimationControl();
 	if(!facingRight) {
 		transform.rotation = Quaternion.Euler(0,30,0);
 	} else {
@@ -90,6 +92,23 @@ function CheckForFall() {
 	currentVelocity = GameObject.Find("Character Model").GetComponent(CharacterMovement).currentVelocity;
 	if (currentVelocity.y <= -0.1) {
 		falling = true;
+	}
+}
+
+function RunningAnimationControl() {
+	currentVelocity = GameObject.Find("Character Model").GetComponent(CharacterMovement).currentVelocity;
+	if (Mathf.Abs(currentVelocity.x) > 0) {
+		idleing = false;
+		running = true;
+		dashing = false;
+		if (Mathf.Abs(currentVelocity.x) > 0.06) {
+			running = false;
+			dashing = true;			
+		} else {
+		idleing = true;
+		running = false;
+		dashing = false;
+		}
 	}
 }
 
