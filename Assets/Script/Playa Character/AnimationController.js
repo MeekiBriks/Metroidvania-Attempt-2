@@ -25,7 +25,6 @@ var falling : System.Boolean;
 var inFight : System.Boolean;
 
 // Animation Control Triggers
-//var lastKeyPressed;
 var currentVelocity : Vector3;
 
 
@@ -43,10 +42,17 @@ function Start() {
 function Update() {
 	DetermineKeyPress();
 	CheckForFall();
+	if(!facingRight) {
+		transform.rotation = Quaternion.Euler(0,30,0);
+	} else {
+		transform.rotation = Quaternion.Euler(0,-30,0);
+	}
+}
+
+function FixedUpdate() {
 }
 
 function LateUpdate() {
-//	lastKeyPressed = "undefined";
 }
 
 function DetermineKeyPress() {
@@ -139,3 +145,11 @@ function AnimationVariableChanger(key : System.String) {
 			lookDown=false;
 	}
 }
+
+
+
+
+
+
+
+
