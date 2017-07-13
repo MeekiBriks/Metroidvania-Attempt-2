@@ -44,11 +44,6 @@ function Update() {
 	DetermineKeyPress();
 	CheckForFall();
 	RunningAnimationControl();
-	if(!facingRight) {
-		transform.rotation = Quaternion.Euler(0,30,0);
-	} else {
-		transform.rotation = Quaternion.Euler(0,-30,0);
-	}
 	transform.rotation = Quaternion.Euler(0,Input.GetAxis("Horizontal")*-30,0);
 }
 
