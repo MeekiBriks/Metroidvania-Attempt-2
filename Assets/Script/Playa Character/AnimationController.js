@@ -25,7 +25,7 @@ var falling : System.Boolean;
 var inFight : System.Boolean;
 
 // Animation Control Triggers
-var lastKeyPressed;
+//var lastKeyPressed;
 var currentVelocity : Vector3;
 
 
@@ -42,15 +42,15 @@ function Start() {
 
 function Update() {
 	DetermineKeyPress();
-	AnimationVariableChanger();
 	CheckForFall();
 }
 
 function LateUpdate() {
-	lastKeyPressed = "undefined";
+//	lastKeyPressed = "undefined";
 }
 
 function DetermineKeyPress() {
+    var lastKeyPressed : System.String;
 	if (Vector3(Input.GetAxis("Horizontal"),0,0) == Vector3.right) {
 		lastKeyPressed = rightKey;
 	}
@@ -72,7 +72,7 @@ function DetermineKeyPress() {
 	if (Input.GetKeyDown(interactKey) === true) {
 		lastKeyPressed = interactKey;
 	}
-AnimationVariableChanger();
+AnimationVariableChanger(lastKeyPressed);
 }
 
 function OnFloor() {
@@ -87,8 +87,8 @@ function CheckForFall() {
 	}
 }
 
-function AnimationVariableChanger() {
-	switch (lastKeyPressed) {
+function AnimationVariableChanger(key : System.String) {
+	switch (key) {
 		case rightKey:
 			facingRight=true;
 			break;

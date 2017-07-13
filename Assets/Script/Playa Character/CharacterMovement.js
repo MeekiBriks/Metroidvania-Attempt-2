@@ -39,6 +39,9 @@ function Update () {
 	yMovement = Vector3(0,jitterHeight,0);
 	transform.position += yMovement * Time.deltaTime;
 	transform.position += xMovement * xSpeed * Time.deltaTime;
+	if(Input.GetKeyDown("space") == true && onFloor){
+	    jump();
+	}
 }
 
 function FixedUpdate() {
@@ -66,4 +69,8 @@ function DirectionVector() {
 	yield WaitForSeconds(1);
 	newPosition = transform.position;
 	currentVelocity = newPosition - oldPosition;
+}
+
+function jump(){
+    GetComponent.<Rigidbody>().AddForce(Vector3(0,50000,0));
 }
