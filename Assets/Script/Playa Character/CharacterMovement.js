@@ -32,7 +32,6 @@ function Start () {
 	slopeSteepness = 60;
 	jitterHeight = 4 * Mathf.Tan(60);
 	DirectionVector();
-	PerSecondTimer();
 }
 
 function Update () {
@@ -49,29 +48,22 @@ function FixedUpdate() {
 function LateUpdate() {
 	yMovement = Vector3(0,jitterHeight,0);
 	transform.position -= yMovement * Time.deltaTime;
-}
-
-function PerSecondTimer() {
-	yield WaitForSeconds (1);
-}
-	
+}	
 
 function OnCollisionEnter (collision : Collision){
-	if(collision == gameObject.Find("Floor").GetComponent.<BoxCollider>()){
+	if(collision.gameObject.name == "Floor"){
 		onFloor = true;
-		xSpeed = 100;
-		GameObject.Find("Character Model").GetComponent(AnimationController).OnFloor();
+		GetComponent(AnimationController).OnFloor();
 	}
 }function OnCollisionExit (collision : Collision){
-	if(collision == gameObject.Find("Floor").GetComponent.<BoxCollider>()){
+    if(collision.gameObject.name == "Floor"){
 		onFloor = false;
-		xSpeed = 4;
 	}
 }
 
 function DirectionVector() {
 	oldPosition = transform.position;
-	yield PerSecondTimer();
+	yield WaitForSeconds(1);
 	newPosition = transform.position;
 	currentVelocity = newPosition - oldPosition;
 }
